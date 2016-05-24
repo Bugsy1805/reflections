@@ -1,28 +1,45 @@
 How did viewing a diff between two versions of a file help you see the bug that
 was introduced?
 
+   	 It filtered out the changes which made it easier to find compared to searching through both documents.
 
 How could having easy access to the entire history of a file make you a more
 efficient programmer in the long term?
 
-
+    	You could pick patterns that appear which are considered good practice and some common mistakes that could be avoided.
 
 What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google
 docs does?
 
+	The advantage of manually creating a commit is that it empowers the developer to choose when an appropriate time for this as well as writting a useful message 		relevent to the commit. 
+    	The disadvantage is that a devloper could forget to commit and large commits suddenly occur which are harder to trace back. 
+
+	NOTE:
+	A good rule of thumb is to make one commit per logical change. For example, if you fixed a typo, then fixed a bug in a separate part of the file, you should 		use one commit for each change since they are logically separate. If you do this, each commit will have one purpose that can be easily understood. Git allows 		you to write a short message explaining what was changed in each commit, and that message will be more useful if each commit has a single logical change.
 
 Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
 
+    	If the files are interconnected in a way then it is a good idea to commit these files together such as html and css files. anrdoid java and xml,...
+	This keeps everything updated in a repository even if some of the files have not changed.
 
 How can you use the commands git log and git diff to view the history of files?
+
+    	git --log <files> and git --diff <files>
 
 How might using version control make you more confident to make changes that
 could break something?
 
+    	If version controll is used well then yo know that if you make a change, that potentially could affect functionality, you can always go back to the last 		version that was working fine
+
 Now that you have your workspace set up, what do you want to try using Git for?
+
+    Version control of any ongoing projects.
 
 
 How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+	You can easily look up changes that have occured and also see how another developer did something that is similar to a task you are trying to achieve
+
 
 
 How can you use the commands git log and git diff to view the history of files?
