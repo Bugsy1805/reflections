@@ -18,7 +18,6 @@ How would you collaborate without using Git or GitHub?  What would be easier,and
 
     You could have the same directories to start with and create an account on a server on someones pc and manually add files using a version control numbering 	system. This would be easy to submit to but difficult to manage.
 
-When would you want to make changes in a separate branch rather than directly in
-master?  What benefits does each approach have?
+When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
 
-    Fill in your answer here
+	To get feedback and not just commit your changes to the remote master. This allows discussion on your changes before merging them to master branch wihch could 		be the production level code. This obviously takes longer and is a bit more work.
